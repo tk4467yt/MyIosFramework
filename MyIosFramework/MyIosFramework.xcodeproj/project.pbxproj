@@ -462,7 +462,12 @@
 		255C42F51E90AA3C00F3716E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
 				CODE_SIGN_IDENTITY = "";
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 36Y8RN8MDS;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -472,6 +477,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
 				MACH_O_TYPE = staticlib;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lazilybird.app.MyIosFramework;
@@ -483,7 +489,12 @@
 		255C42F61E90AA3C00F3716E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
 				CODE_SIGN_IDENTITY = "";
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 36Y8RN8MDS;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -493,6 +504,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
 				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lazilybird.app.MyIosFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
