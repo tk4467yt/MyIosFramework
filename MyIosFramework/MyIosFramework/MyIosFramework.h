@@ -7,6 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#impoort "MyColor.h"
+#impoort "MyUtility.h"
+#impoort "MyRootViewController.h"
+#impoort "TextContentCollectionReusableView.h"
+#impoort "FMDB.h"
+#impoort "FMDBMigrationManager.h"
 
 //! Project version number for MyIosFramework.
 FOUNDATION_EXPORT double MyIosFrameworkVersionNumber;
