@@ -71,4 +71,20 @@
     return height;
 }
 
++(UIViewController *)getInitViewControllerFromSB:(NSString *)storyBoard withBundle:(NSBundle *)bundle
+{
+    if ([MyUtility isStringNilOrZeroLength:storyBoard]) {
+        return nil;
+    }
+    if (nil == bundle) {
+        bundle=[NSBundle mainBundle];
+    }
+    UIStoryboard *sb=[UIStoryboard storyboardWithName:storyBoard bundle:bundle];
+    if (nil != sb) {
+        return sb.instantiateInitialViewController;
+    }
+    
+    return nil;
+}
+
 @end
