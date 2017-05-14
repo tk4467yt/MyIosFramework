@@ -31,6 +31,7 @@
 		2510E8BC1EB4971900EC59E7 /* FMDBMigrationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2510E8BA1EB4971900EC59E7 /* FMDBMigrationManager.m */; };
 		2510E8BF1EB7848500EC59E7 /* MyColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2510E8BD1EB7848500EC59E7 /* MyColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2510E8C01EB7848500EC59E7 /* MyColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2510E8BE1EB7848500EC59E7 /* MyColor.m */; };
+		2510E9211EC806A500EC59E7 /* tips.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2510E9201EC806A500EC59E7 /* tips.txt */; };
 		255C42EA1E90AA3C00F3716E /* MyIosFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255C42E01E90AA3C00F3716E /* MyIosFramework.framework */; };
 		255C42EF1E90AA3C00F3716E /* MyIosFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 255C42EE1E90AA3C00F3716E /* MyIosFrameworkTests.m */; };
 		255C42F11E90AA3C00F3716E /* MyIosFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 255C42E31E90AA3C00F3716E /* MyIosFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -84,6 +85,7 @@
 		2510E8BA1EB4971900EC59E7 /* FMDBMigrationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBMigrationManager.m; sourceTree = "<group>"; };
 		2510E8BD1EB7848500EC59E7 /* MyColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyColor.h; sourceTree = "<group>"; };
 		2510E8BE1EB7848500EC59E7 /* MyColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyColor.m; sourceTree = "<group>"; };
+		2510E9201EC806A500EC59E7 /* tips.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tips.txt; sourceTree = "<group>"; };
 		255C42E01E90AA3C00F3716E /* MyIosFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyIosFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		255C42E31E90AA3C00F3716E /* MyIosFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyIosFramework.h; sourceTree = "<group>"; };
 		255C42E41E90AA3C00F3716E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 				2510E88C1EB4924200EC59E7 /* 3rd */,
 				255C42E31E90AA3C00F3716E /* MyIosFramework.h */,
 				255C42E41E90AA3C00F3716E /* Info.plist */,
+				2510E9201EC806A500EC59E7 /* tips.txt */,
 			);
 			path = MyIosFramework;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2510E9211EC806A500EC59E7 /* tips.txt in Resources */,
 				2510E8B71EB493E400EC59E7 /* TextContentCollectionReusableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
