@@ -87,4 +87,14 @@
     return nil;
 }
 
++(NSString *)makeUniqueIdWithMaxLength:(NSInteger)maxLen
+{
+    NSString *str2ret=[[[UIDevice currentDevice] identifierForVendor] UUIDString];
+    str2ret=[NSString stringWithFormat:@"%@_%f",str2ret,[[NSDate date] timeIntervalSince1970]];
+    if (str2ret.length > maxLen) {
+        str2ret=[str2ret substringToIndex:maxLen-1];
+    }
+    return str2ret;
+}
+
 @end
